@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --primary: #f7b906;
     --light: #F0FBFC;
-    --dark: #181d38;
+    --dark: #026060;
 }
 
 .fw-medium {
@@ -42,6 +42,12 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     transition: .5s;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #026060;
+    border-color: #026060;
 }
 
 .btn.btn-primary,
@@ -98,6 +104,10 @@
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
+}
+
+span{
+    color: #026060;
 }
 
 @media (max-width: 991.98px) {
@@ -432,3 +442,8 @@
     padding-right: 0;
     border-right: none;
 }
+
+.text-primary {
+    color: #f7b906 !important;
+
+ 
