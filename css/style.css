@@ -110,6 +110,10 @@ span{
     color: #026060;
 }
 
+.bg-primary {
+    background-color: #026060 !important;
+}
+
 @media (max-width: 991.98px) {
     .navbar-light .navbar-nav .nav-link  {
         margin-right: 0;
